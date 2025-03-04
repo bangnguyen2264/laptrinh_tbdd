@@ -1,4 +1,5 @@
 import 'package:baitap_laptrinhtbdd/baitap_tuan_1.dart';
+import 'package:baitap_laptrinhtbdd/thuchanh_1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bài tập lập trình thiết bị di động',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Thuchanh1(),
     );
   }
 }
