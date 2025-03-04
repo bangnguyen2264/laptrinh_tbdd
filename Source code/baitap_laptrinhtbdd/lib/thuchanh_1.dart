@@ -27,13 +27,13 @@ class _Thuchanh1State extends State<Thuchanh1> {
               ElevatedButton(
                 style: ButtonStyle(
                   backgroundColor:
-                      MaterialStateProperty.all<Color>(Colors.purple),
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      WidgetStateProperty.all<Color>(Colors.purple),
+                  shape: WidgetStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
-                  padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+                  padding: WidgetStateProperty.all<EdgeInsetsGeometry>(
                     EdgeInsets.symmetric(horizontal: 50, vertical: 10),
                   ),
                 ),
@@ -82,16 +82,11 @@ class _Thuchanh1State extends State<Thuchanh1> {
 
   String _checkAge() {
     final int age = int.tryParse(_ageController.text) ?? 0;
-    if (age == 0) {
-      return 'Vui lòng nhập tuổi';
-    } else if (age < 18) {
-      return 'Bạn là thiếu niên';
-    } else if (age < 30) {
-      return 'Bạn là thanh niên';
-    }
-    if (age < 50) {
-      return 'Bạn là người trung niên';
-    }
+    if (age <= 0) return 'Vui lòng nhập tuổi hợp lệ';
+    if (age < 18) return 'Bạn là thiếu niên';
+    if (age < 30) return 'Bạn là thanh niên';
+    if (age < 50) return 'Bạn là người trung niên';
+
     return 'Bạn là người già';
   }
 }
