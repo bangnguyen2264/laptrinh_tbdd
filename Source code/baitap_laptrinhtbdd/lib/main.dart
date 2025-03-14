@@ -1,6 +1,7 @@
 import 'package:baitap_laptrinhtbdd/baitap_tuan_1/baitap_tuan_1.dart';
 import 'package:baitap_laptrinhtbdd/baitap_tuan_2/baitap_tuan_2.dart';
 import 'package:baitap_laptrinhtbdd/baitap_tuan_2/thuchanh_1.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_3/bai_1/intro.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return MaterialApp(
       title: 'Bài tập lập trình thiết bị di động',
       debugShowCheckedModeBanner: false,
-      home: BaitapTuan2(),
+      home: IntroScreen(),
     );
   }
 }
