@@ -1,9 +1,4 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan_1/baitap_tuan_1.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan_2/baitap_tuan_2.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan_2/thuchanh_1.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan_3/bai_1/intro.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan_3/bai_2/onb.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan_3/bai_2/splash.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh1/root_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Bài tập lập trình thiết bị di động',
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      home: RootScreen(),
     );
   }
 }

@@ -1,4 +1,3 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan_3/bai_1/text_model.dart';
 import 'package:flutter/material.dart';
 
 class DetailScreen extends StatelessWidget {

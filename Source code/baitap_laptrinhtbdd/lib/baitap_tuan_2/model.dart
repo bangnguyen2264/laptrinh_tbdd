@@ -19,7 +19,7 @@ class Person {
 
 class User extends Person {
   List<Book> borrowedBooks = [];
-  User(String name) : super(name);
+  User(super.name);
 
   void borrow(Book book) {
     if (!book.isBorrowed) {
