@@ -1,4 +1,4 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh1/list_screen.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh1/list_screen.dart';
 import 'package:flutter/material.dart';
 
 class RootScreen extends StatelessWidget {

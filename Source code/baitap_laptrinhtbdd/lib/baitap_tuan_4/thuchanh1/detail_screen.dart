@@ -1,5 +1,5 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh1/appbar_custom.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh1/list_item_model.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh1/appbar_custom.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh1/list_item_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

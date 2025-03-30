@@ -1,5 +1,5 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh2/appbar_custom.dart';
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh2/task_model.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh2/appbar_custom.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh2/task_model.dart';
 import 'package:flutter/material.dart';
 
 class TaskDetailScreen extends StatelessWidget {

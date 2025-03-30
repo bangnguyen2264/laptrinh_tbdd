@@ -1,4 +1,4 @@
-import 'package:baitap_laptrinhtbdd/baitap_tuan4.dart/thuchanh1/list_item_model.dart';
+import 'package:baitap_laptrinhtbdd/baitap_tuan_4/thuchanh1/list_item_model.dart';
 
 class ItemGenerator {
   static List<Item> generateItems(int count) {
